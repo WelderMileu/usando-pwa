@@ -24,9 +24,15 @@
 		}
 	],
 	"scope":"/",
-	"short_url":"/index.html",
+	"start_url":"index.html",
 	"orientation":"portrait",
 	"display":"standalone",
 	"theme_color":"#ECD078",
 	"background_color":"#53777A"
 }
+
+/*
+	could not check service worker
+	without a 'start_url' field in
+	the manifest
+*/
