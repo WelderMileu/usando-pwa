@@ -133,7 +133,8 @@ body{
 		display: flex;
 		flex-direction: column;
 		margin-top: 30px;
-		display: block;	
+		display: block;
+		text-align: center;	
 	}
 
 }
