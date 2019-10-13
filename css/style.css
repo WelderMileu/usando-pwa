@@ -38,11 +38,20 @@ body{
 
 .navbar-nav{
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .nav .navbar-nav .nav-item{
 	list-style: none;
 	margin: 10px;
+}
+
+.nav .navbar-nav .nav-item:nth-child(4){
+	background-color: var(--branco);
+	color:var(--branco);
+	padding:  5px 20px;
+	border-radius:3px;
 }
 
 .nav .navbar-nav .nav-item .nav-link{
