@@ -3,16 +3,27 @@
 	"name":"O snowflake",
 	"icons":[
 		{
-			"src":"img/pwa-image.png",
-			"sizes":"19x19",
+			"src":"img/75x75.png",
+			"sizes":"75x75",
 			"type":"image/png"
 		},
 		{
-			"src":"img/pwa-image.png",
-			"sizes":"150x150",
+			"src":"img/189x189.png",
+			"sizes":"189x189",
+			"type":"image/png"
+		},
+		{
+			"src":"img/256x256.png",
+			"sizes":"256x256",
+			"type":"image/png"
+		},
+		{
+			"src":"img/473x473.png",
+			"sizes":"473x473",
 			"type":"image/png"
 		}
 	],
+	"scope":"/",
 	"short_url":"index.html",
 	"orientation":"portrait",
 	"display":"standalane",
