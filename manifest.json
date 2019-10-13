@@ -1,0 +1,21 @@
+{
+	"short_name":"snowflake",
+	"name":"O snowflake",
+	"icons":[
+		{
+			"src":"img/pwa-image.png",
+			"sizes":"19x19",
+			"type":"image/png"
+		},
+		{
+			"src":"img/pwa-image.png",
+			"sizes":"150x150",
+			"type":"image/png"
+		}
+	],
+	"short_url":"index.html",
+	"orientation":"portrait",
+	"display":"standalane",
+	"theme_color":"#ECD078",
+	"background_color":"#53777A"
+}
