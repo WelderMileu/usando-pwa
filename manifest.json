@@ -26,7 +26,7 @@
 	"scope":"/",
 	"short_url":"index.html",
 	"orientation":"portrait",
-	"display":"standalane",
+	"display":"standalone",
 	"theme_color":"#ECD078",
 	"background_color":"#53777A"
 }
