@@ -24,7 +24,7 @@
 		}
 	],
 	"scope":"/",
-	"short_url":"index.html",
+	"short_url":"/index.html",
 	"orientation":"portrait",
 	"display":"standalone",
 	"theme_color":"#ECD078",
