@@ -4,7 +4,7 @@
 
 - [ ] aprender a configurar melhor o manifest.json
 - [ ] aprender os outros conceitos de PWA
-- [ ] colocar a nossa aplicação no github
+- [x] colocar a nossa aplicação no github
 - [ ] colocar a nossa aplicação no ar com github pages
 
 ` PWA `
