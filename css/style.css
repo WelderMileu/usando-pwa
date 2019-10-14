@@ -147,5 +147,8 @@ body{
 		display: block;
 		text-align: center;
 	}
-
+	
+	.card{
+		margin-right: 0px;
+	}
 }
