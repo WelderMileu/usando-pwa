@@ -23,7 +23,6 @@
 			"type":"image/png"
 		}
 	],
-	// "scope":"/usando-pwa/js",
 	"start_url":"/index.html",
 	"orientation":"portrait",
 	"display":"standalone",
@@ -31,6 +30,7 @@
 	"background_color":"#53777A"
 }
 
+/* "scope":"/usando-pwa/js", */
 /*
 	could not check service worker
 	without a 'start_url' field in
