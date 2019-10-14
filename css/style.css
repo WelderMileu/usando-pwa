@@ -27,7 +27,7 @@ body{
 	display: flex;
 	justify-content: space-around;
 	padding: 10px;
-	background-color: var(--amarelo);
+	background-color: var(--azul);
 	border-bottom:2px solid var(--marron);
 	position: fixed;
 	width: 100%;
@@ -35,7 +35,7 @@ body{
 }
 
 .nav .nav-brand{
-	color: var(--azul);
+	color: var(--branco);
 	font-size: 1.2rem;
 }
 
@@ -52,14 +52,17 @@ body{
 
 .nav .navbar-nav .nav-item:nth-child(4){
 	background-color: var(--branco);
-	color:var(--branco);
 	padding:  5px 20px;
 	border-radius:3px;
 }
 
+.nav .navbar-nav .nav-item:nth-child(4) .nav-link{
+	color: var(--azul);
+}
+
 .nav .navbar-nav .nav-item .nav-link{
 	text-decoration: none;
-	color:var(--azul);
+	color:var(--branco);
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -70,7 +73,7 @@ body{
 }
 
 .nav .bars h1 i{
-	color:var(--azul);
+	color:var(--branco);
 	font-size: 2rem;
 }
 
@@ -78,44 +81,49 @@ body{
 
 .container{
 	margin: auto 20%;
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.container .content{
-	margin-top: 70px;
+/* Card da Aplicação */
+
+.card{
+	box-shadow: inset 0px 0px 5px var(--azul);
+	border-radius: 5%;
+	padding: 20px;
+	width: 300px;
+	margin-bottom:30px;
+	margin-right: 20px;
 }
 
-.container .content .content-title{
-	color:var(--azul);
-	margin-bottom: 10px;
+.card .card-title{
+	text-align: center;
+	margin: 10px;
+	font-weight: 600;
 }
 
-
-.container .content .content-text{
-	font-family: 'Montserrat', sans-serif;
+.card .card-img{
+	text-align: center;
 }
 
-/* buttons */
+.card .card-text{
+	margin: 10px;
+	width: 100%;
+}
+
+.card .card-footer{
+	margin: auto 5%;
+}
 
 .btn{
-	margin-top: 20px;
+	width: 100px;
 	border:none;
-	border:1px solid var(--azul);
-	padding: 10px 30px;
-	border-radius: 5%;
-	font-size: 1rem;
-	color: var(--azul);
-	cursor: pointer;
-	transition: .5s ease-in-out;
-}
-
-.btn:hover{
-	opacity: .7;
-}
-
-.btn-primary{
+	padding: 10px 10px;
 	background-color: var(--azul);
-	color: var(--branco);
+	color:var(--branco);
 }
+
 
 @media (max-width: 700px){
 	/* navegação */
