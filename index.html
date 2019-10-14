@@ -43,7 +43,6 @@
 		</section><br>
 		<p style="width: 200px">Aplicação esta reclamando do nosso manifesto.json em start_url, talves o problema esteja na configuração do Service Worker.</p>
 	</body>
-	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript">
 		// This is the "Offline page" service worker
 
@@ -56,7 +55,7 @@
 		  } else {
 		    // Register the service worker
 		    navigator.serviceWorker
-		      .register("pwabuilder-sw.js", {
+		      .register("js/pwabuilder-sw.js", {
 		        scope: "./"
 		      })
 		      .then(function (reg) {
@@ -66,4 +65,5 @@
 		}
 
 	</script>
+	<script type="text/javascript" src="js/main.js"></script>
 </html>
