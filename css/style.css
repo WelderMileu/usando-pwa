@@ -80,7 +80,7 @@ body{
 /* Conteudo da aplicação */
 
 .container{
-	margin: auto 20%;
+	margin: auto 10%;
 	margin-top: 100px;
 	display: flex;
 	flex-wrap: wrap;
@@ -146,9 +146,5 @@ body{
 		margin-top: 30px;
 		display: block;
 		text-align: center;
-	}
-	
-	.card{
-		margin-right: 0px;
 	}
 }
