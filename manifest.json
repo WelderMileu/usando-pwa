@@ -27,7 +27,7 @@
 	"orientation":"portrait",
 	"display":"standalone",
 	"theme_color":"#ECD078",
-	"background_color":"#53777A"
+	"background_color":"#f1f1f1"
 }
 
 /* "scope":"/usando-pwa/js", */
